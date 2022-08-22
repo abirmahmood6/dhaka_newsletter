@@ -1,0 +1,36 @@
+/* This stylesheet is mobile first */
+
+html, body {
+ margin:0;
+ padding:0;
+}
+
+body {
+ text-align: center;
+ box-sizing: border-box;
+ font-family: "Times New Roman", serif;
+}
+ 
+.container {
+ max-width: 1100px;
+ margin: 0 auto;  
+}
+
+ p, h2{
+ text-align: center;
+}
+
+.main-story img{
+ width: 75%;
+}
+
+.date {
+ font-size: 25px;
+ border-bottom: 10px solid black;
+ width: 90%;
+ margin: 0 auto;
+}
+
+.story h3 {
+ text-align: center;
+}
