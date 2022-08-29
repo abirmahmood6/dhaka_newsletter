@@ -40,10 +40,58 @@ p, h2{
 
 .story h3 {
  text-align: center;
-}
+}  
 
 .story {
  border: 2px solid black;
- margin: 5%;
+ margin: 20px;
  background-color: rgb(255,255,255);
+}
+
+.mobile-hidden{
+ display: none;
+}
+
+
+
+/* Desktop second */
+@media (min-width: 768px) {
+
+.main-story img{
+ width: 40%;
+ position: relative;
+ right: 20%;
+}
+
+h1 {
+ font-size: 40px;
+}
+
+.date {
+ font-size: 25px;
+}
+
+.stories {
+ display: flex;
+ flex-direction: column;
+ position: absolute;
+ top: 280px;
+ left: 50%;
+}
+  
+.story {
+ border: 2px solid black;
+ margin: 20px;
+ background-color: rgb(255,255,255);
+ width: 450px;   
+}
+
+.mobile-hidden {
+ display: block;
+ font-size: 30px;
+}
+  
+.desktop-hidden{
+ display: none;
+}
 }
